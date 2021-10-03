@@ -5,3 +5,4 @@ This is a Hoku's dotfiles for Mac(JIS layout keyboard).
 - Shell: zsh
 - Editor: Vim
 - Package Manager: Homebrew
+- Keyboard Customizer: Karabiner-Elements
