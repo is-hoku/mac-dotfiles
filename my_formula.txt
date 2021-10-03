@@ -1,0 +1,7 @@
+gnupg
+gtk+3
+macvim
+pinentry-mac
+starship
+subversion
+vim

@@ -1,0 +1,17 @@
+/*
+/.**
+
+!.zshrc
+!.vimrc
+!.install.sh
+!/.gitconfig
+!/.config
+!/.config/**
+/.config/karabiner/assets
+/.config/karabiner/automatic_backups
+!my_formula.txt
+!my_cask_formula.txt
+!/bin
+
+!/README.md
+!.gitignore

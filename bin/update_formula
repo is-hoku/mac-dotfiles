@@ -1,0 +1,4 @@
+#!/bin/zsh
+
+brew leaves > ~/mac-dotfiles/my_formula.txt
+brew list --cask -1 > ~/mac-dotfiles/my_cask_formula.txt
