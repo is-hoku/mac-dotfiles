@@ -16,3 +16,5 @@ font-source-code-pro
 gpg-suite
 karabiner-elements
 keybase
+yubico-authenticator
+yubico-yubikey-manager
