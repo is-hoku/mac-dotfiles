@@ -22,7 +22,6 @@
   # check the local terminfo database and use `alacritty` if it is
   # available, otherwise `xterm-256color` is used.
   #TERM: alacritty
-alt_send_esc: false
 
 window:
   # Window dimensions (changes require restart)

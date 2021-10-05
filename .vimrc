@@ -28,7 +28,6 @@ nnoremap j gj
 nnoremap k gk
 nnoremap <Down> gj
 nnoremap <Up> gk
-nnoremap * :
 nmap <C-k> :LspHover<CR>
 Plugin 'VundleVim/Vundle.vim'
 " Write Plugins here!
