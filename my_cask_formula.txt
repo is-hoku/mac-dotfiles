@@ -1,5 +1,6 @@
 alacritty
 bitwarden
+docker
 font-awesome-terminal-fonts
 font-dejavu-sans-mono-nerd-font
 font-fira-code
@@ -16,5 +17,6 @@ font-source-code-pro
 gpg-suite
 karabiner-elements
 keybase
+visual-studio-code
 yubico-authenticator
 yubico-yubikey-manager

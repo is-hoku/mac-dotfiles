@@ -1,3 +1,5 @@
+docker-compose
+git-gui
 gnupg
 gtk+3
 macvim
