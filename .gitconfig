@@ -1,5 +1,8 @@
-[include]
+[includeIf "gitdir:~/projects/"]
 	path = ~/.gitconfig.local
+
+[includeIf "gitdir:~/mac-dotfiles/"]
+	path = ~/.gitconfig.local.private
 
 [init]
 	defaultBranch = main
@@ -10,18 +13,15 @@
 	untracked = blue
 
 [color "diff"]
-   meta = cyan
-   frag = magenta
-   old = blue
-   new = red
+	meta = cyan
+	frag = magenta
+	old = blue
+	new = red
 
 [color "branch"]
-   current = cyan reverse
-   local = cyan
-   remote = green
+	current = cyan reverse
+	local = cyan
+	remote = green
 
 [credential]
 	helper = osxkeychain
-
-[commit]
-	gpgsign = true
