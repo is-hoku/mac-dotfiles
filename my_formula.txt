@@ -1,6 +1,7 @@
 docker-compose
 git-gui
 gnupg
+go
 gtk+3
 macvim
 pinentry-mac

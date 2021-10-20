@@ -3,6 +3,8 @@ alias ls='ls -G'
 eval "$(starship init zsh)"
 
 export PATH=~/mac-dotfiles/bin:$PATH
+export GOPATH=~/go
+export PATH="$GOPATH/bin:$PATH"
 
 export LANG=ja_JP.UTF-8
 export LC_CTYPE=ja_JP.UTF-8
