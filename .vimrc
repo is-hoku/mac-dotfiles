@@ -28,7 +28,11 @@ nnoremap j gj
 nnoremap k gk
 nnoremap <Down> gj
 nnoremap <Up> gk
+nnoremap * :
 nmap <C-k> :LspHover<CR>
+nmap <C-l> :LspDefinition<CR>
+autocmd FileType c ClangFormatAutoEnable
+autocmd FileType cpp ClangFormatAutoEnable
 Plugin 'VundleVim/Vundle.vim'
 " Write Plugins here!
 Plugin 'scrooloose/nerdtree'
@@ -50,6 +54,9 @@ Plugin 'junegunn/fzf.vim'
 Plugin 'sebdah/vim-delve'
 Plugin 'iamcco/markdown-preview.nvim'
 Plugin 'vim-scripts/dbext.vim'
+Plugin 'tyru/eskk.vim'
+Plugin 'rhysd/vim-clang-format'
+Plugin 'kana/vim-operator-user'
 
 call vundle#end()
 colorscheme sakura
@@ -70,3 +77,13 @@ if filereadable(expand('~/.dbext_profile'))
 	source ~/.dbext_profile
 endif
 let g:dbext_default_history_file = '~/.dbext_history'
+
+command! Jqf %!jq '.'
+
+let g:eskk#directory = "~/.config/eskk"
+let g:eskk#dictionary = {'path': "~/.config/eskk/my_jisyo", 'sorted': 1, 'encoding': 'utf-8',}
+let g:eskk#large_dictionary = {'path': "~/.config/eskk/SKK-JISYO.L", 'sorted': 1, 'encoding': 'euc-jp',}
+let g:eskk#sub_dictionaries = {}
+let g:eskk#kakutei_when_unique_candidate = 1
+let g:eskk#keep_state = 0
+let g:eskk#egg_like_newline = 1

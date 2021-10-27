@@ -1,10 +1,14 @@
 docker-compose
+fzf
 git-gui
 gnupg
 go
 gtk+3
 macvim
+nghttp2
+node
 pinentry-mac
+ripgrep
 starship
 subversion
 vim
