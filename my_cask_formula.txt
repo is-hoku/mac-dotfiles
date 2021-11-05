@@ -1,4 +1,5 @@
 alacritty
+aquaskk
 bitwarden
 docker
 font-awesome-terminal-fonts

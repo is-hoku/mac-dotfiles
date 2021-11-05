@@ -19,3 +19,7 @@ export LC_ADDRESS=ja_JP.UTF-8
 export LC_TELEPHONE=ja_JP.UTF-8
 export LC_MEASUREMENT=ja_JP.UTF-8
 export LC_IDENTIFICATION=ja_JP.UTF-8
+
+fpath=(~/.zsh $fpath)
+autoload -U compinit
+compinit -u
