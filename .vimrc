@@ -30,6 +30,8 @@ nnoremap <Down> gj
 nnoremap <Up> gk
 nnoremap * :
 nmap <C-k> :LspHover<CR>
+nnoremap <expr><c-f> lsp#scroll(+4)
+nnoremap <expr><c-d> lsp#scroll(-4)
 nmap <C-l> :LspDefinition<CR>
 autocmd FileType c ClangFormatAutoEnable
 autocmd FileType cpp ClangFormatAutoEnable
@@ -65,6 +67,7 @@ if has('persistent_undo')
 	set undofile
 endif
 
+set rtp+=/usr/local/opt/fzf
 if executable('rg')
     command! -bang -nargs=* Rg
         \ call fzf#vim#grep(

@@ -23,3 +23,5 @@ export LC_IDENTIFICATION=ja_JP.UTF-8
 fpath=(~/.zsh $fpath)
 autoload -U compinit
 compinit -u
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
